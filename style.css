@@ -60,3 +60,7 @@
 .btn-success{
     margin: 10px;
 }
+
+.fixed{
+    position: fixed;
+}
