@@ -9,7 +9,7 @@
     <!-- css propio -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="regala">
   <!-- barra de navegacion -->
     <header >
 
@@ -29,7 +29,6 @@
                   <a class="nav-link " href="contactanos.html#" tabindex="-1" aria-disabled="true">Contactanos</a>
                 </li>
 
-                
                 <li class="nav-item active">
                   <a class="nav-link " href="regalaunlibro.html#" tabindex="-1" aria-disabled="true">Regala un Libro</a>
                 </li>
@@ -61,19 +60,59 @@
 
 
 
-    <main>
+    <main></main>
+
+        <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded mb-5 mb-lg-0" src="http://img.bekiapadres.com/articulos/22000/22517/2.jpg" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-6">
+		  
+		  
+        <h3 class="font-weight-light">Formulario para que te llegue la información de como hacerlo</h3>
+		  
+		    <form action="https://formspree.io/mwknzblo" method="POST" class="col-lg-12">
+        <div class="col-sm-7 slideanim offset-lg-0 col-lg-12">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="message" placeholder="Que libro o libros vas a donar" rows="3"></textarea><br>
+          <div class="row">
+            <div class="form-group col-lg-3 offset-lg-9">
+              <button "d-flex justify-content-end" type="button" class="btn btn-info">Enviar</button>
+			</div>
+          </div>
+        </div>
+        </form>
+		  
+      </div>
+		
+		
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="cartaregalo" class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">Nos encargamos de hacer llegar el libro a fundaciones, confía en que estara en buenas manos!</p>
+      </div>
+    </div>
 
 
+ </main>
 
-
-
-    </main>
-
-
-
-
-
-    <footer >
+ <footer >
 
       <div class="card footer">
         <div class="card-body  text-white bg-dark">
@@ -102,6 +141,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
