@@ -49,14 +49,15 @@
 
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
+            <input id="search"class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="Search">
+            <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> 
         </div>
       </nav>
         
        
     </header>
+    
     <!-- un carrousel para mostrar imagenes importantes -->
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -68,24 +69,15 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="https://images.pexels.com/photos/1130980/pexels-photo-1130980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 tama" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
+          
         </div>
         <div class="carousel-item">
           <img src="https://images.pexels.com/photos/34592/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 tama" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          
         </div>
         <div class="carousel-item">
           <img src="https://images.pexels.com/photos/1122865/pexels-photo-1122865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 tama" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </div>
+          
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -162,14 +154,31 @@
           <h1 class="display-4">Libros de Fantasia</h1>
           <p class="lead">¿Te gustan los libros de elfos, magos y orcos? ¿Quieres vivir mil aventuras? Nuestros libros de fantasía se convertirán en tu mejor aliado.</p>
         </div>
-      </div>
-              
+      </div>   
       
-          
-          
-          
         
   </main>
+
+  <section class="d-flex justify-content-around flex-column cumtomSection align-items-center">
+
+    
+
+    <div id="card" class="card customCard" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Orden</h5>
+          <h6 id="nameText" class="card-subtitle mb-2 text-muted"></h6>
+          <p id="phoneText" class="card-text"></p>
+          <p id="adressText" class="card-text"></p>
+          <p id="pizzaText" class="card-text"></p>
+          <img id="peperoni" class="none pizzaImg" src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni.jpg" alt="Peperoni">
+          <img id="hawaiana" class="none pizzaImg" src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg" alt="Hawaiana">
+        </div>
+      </div>
+ 
+      
+</section>
+ 
+
 
 
 

@@ -60,6 +60,15 @@
 .btn-success{
     margin: 10px;
 }
+.customCard{
+    display: none;
+} 
+.none{
+    display: none;
+}
+.pizzaImg{
+    width: 100px;
+}
 
 
 body.regala {
@@ -73,3 +82,4 @@ body.regala {
 .fixed{
     position: fixed;
 }
+
