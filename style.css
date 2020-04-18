@@ -60,7 +60,6 @@
 .btn-success{
     margin: 10px;
 }
-
 .customCard{
     display: none;
 } 
@@ -69,5 +68,18 @@
 }
 .pizzaImg{
     width: 100px;
+}
+
+
+body.regala {
+    background-image: url(https://images.pexels.com/photos/726225/pexels-photo-726225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+}
+
+.cartaregalo {
+    background-color: #207178;
+  
+.fixed{
+    position: fixed;
 }
 
